@@ -6,7 +6,7 @@ TODO: documentation
 
 # before running the project:
 - add environment variables to .bash_profile or .bashrc
-- 
+
 ```shell
 code ~/.bash_profile
 ```
@@ -18,7 +18,7 @@ export SQS_QUEUE_NAME="<YOUR_QUEUE_NAME>"
 export SQS_AWS_ACC_ID="<YOUR_SQS_AWS_ID>"
 ```
 
-However you can also insert your <b>queueName</b> and <b>queueOwnerAWSAccountId</b> as strings on the SQSQueueClient class.
+- however you can also insert your <b>queueName</b> and <b>queueOwnerAWSAccountId</b> as strings on the SQSQueueClient class.
 
 ```shell
 source ~/.bash_profile
