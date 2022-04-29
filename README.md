@@ -15,7 +15,7 @@ code ~/.bash_profile
 export AWS_ACCESS_KEY="<YOUR_ACCESS_KEY>"
 export AWS_SECRET_KEY="<YOUR_SECRET_KEY>"
 export SQS_QUEUE_NAME="<YOUR_QUEUE_NAME>"
-export SQS_AWS_ACC_ID="<YOUR_SQS_AWS_ID>"
+export SQS_AWS_ACC_ID="<YOUR_SQS_AWS_ACCOUNT_ID>"
 ```
 
 - however you can also insert your <b>queueName</b> and <b>queueOwnerAWSAccountId</b> as strings in the SQSQueueClient class.
